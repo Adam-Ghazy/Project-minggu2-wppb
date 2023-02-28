@@ -61,8 +61,8 @@ class _MyHomePageState extends State<MyHomePage> {
         if(i == 0 || i == 1){
           prima = false;
         }else{
-          for(int j = 2; j <= i/2; j++){
-            if(i%j == 0){
+          for(int n = 2; n <= i/2; n++){
+            if(i%n == 0){
               prima = false;
               break;
             }
